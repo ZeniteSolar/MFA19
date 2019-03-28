@@ -1,2 +1,2 @@
 # MFP19
-Fonte Principalde 18V
+Fonte Principal de 18V
