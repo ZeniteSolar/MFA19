@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:fonte_18V-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -14,123 +15,67 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C_Small C?
+L fonte_18V-rescue:C_Small-Device Cin1
 U 1 1 5C9D0E42
-P 2850 3600
-F 0 "C?" H 2942 3646 50  0000 L CNN
-F 1 "C_Small" H 2942 3555 50  0000 L CNN
-F 2 "" H 2850 3600 50  0001 C CNN
-F 3 "~" H 2850 3600 50  0001 C CNN
-	1    2850 3600
+P 2850 3950
+F 0 "Cin1" H 2942 3996 50  0000 L CNN
+F 1 "100uF" H 2942 3905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 2850 3950 50  0001 C CNN
+F 3 "~" H 2850 3950 50  0001 C CNN
+	1    2850 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L fonte_18V-rescue:R_Small-Device R1
 U 1 1 5C9D0F93
 P 3400 3600
-F 0 "R?" H 3459 3646 50  0000 L CNN
-F 1 "R_Small" H 3459 3555 50  0000 L CNN
-F 2 "" H 3400 3600 50  0001 C CNN
+F 0 "R1" H 3459 3646 50  0000 L CNN
+F 1 "47k" H 3459 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3400 3600 50  0001 C CNN
 F 3 "~" H 3400 3600 50  0001 C CNN
 	1    3400 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 3400 3400 3500
 $Comp
-L Device:Battery BT?
-U 1 1 5C9D1088
-P 2150 3550
-F 0 "BT?" H 2258 3596 50  0000 L CNN
-F 1 "Battery" H 2258 3505 50  0000 L CNN
-F 2 "" V 2150 3610 50  0001 C CNN
-F 3 "~" V 2150 3610 50  0001 C CNN
-	1    2150 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 3300 2150 3350
-Wire Wire Line
-	2850 3300 2850 3500
-Wire Wire Line
-	2150 3300 2850 3300
-$Comp
-L pspice:DIODE D?
-U 1 1 5C9D1123
-P 4650 3250
-F 0 "D?" V 4696 3122 50  0000 R CNN
-F 1 "DIODE" V 4605 3122 50  0000 R CNN
-F 2 "" H 4650 3250 50  0001 C CNN
-F 3 "~" H 4650 3250 50  0001 C CNN
-	1    4650 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L pspice:INDUCTOR L?
-U 1 1 5C9D11E1
-P 5250 2900
-F 0 "L?" H 5250 3115 50  0000 C CNN
-F 1 "INDUCTOR" H 5250 3024 50  0000 C CNN
-F 2 "" H 5250 2900 50  0001 C CNN
-F 3 "~" H 5250 2900 50  0001 C CNN
-	1    5250 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
+L fonte_18V-rescue:C_Small-Device CBoot1
 U 1 1 5C9D124D
-P 4350 2750
-F 0 "C?" V 4121 2750 50  0000 C CNN
-F 1 "C_Small" V 4212 2750 50  0000 C CNN
-F 2 "" H 4350 2750 50  0001 C CNN
-F 3 "~" H 4350 2750 50  0001 C CNN
-	1    4350 2750
+P 4350 2450
+F 0 "CBoot1" V 4121 2450 50  0000 C CNN
+F 1 "100nF" V 4212 2450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4350 2450 50  0001 C CNN
+F 3 "~" H 4350 2450 50  0001 C CNN
+	1    4350 2450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4650 3050 4650 2900
-Wire Wire Line
-	4650 2900 4850 2900
-Wire Wire Line
-	4450 2750 4850 2750
-Wire Wire Line
-	4850 2750 4850 2900
-Connection ~ 4850 2900
-Wire Wire Line
-	4850 2900 5000 2900
 $Comp
-L Device:C_Small C?
+L fonte_18V-rescue:C_Small-Device Cff1
 U 1 1 5C9D13A7
 P 5650 3300
-F 0 "C?" H 5742 3346 50  0000 L CNN
-F 1 "C_Small" H 5742 3255 50  0000 L CNN
-F 2 "" H 5650 3300 50  0001 C CNN
+F 0 "Cff1" H 5742 3346 50  0000 L CNN
+F 1 "33.0pF" H 5742 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 3300 50  0001 C CNN
 F 3 "~" H 5650 3300 50  0001 C CNN
 	1    5650 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5500 2900 5650 2900
-Wire Wire Line
-	5650 2900 5650 3200
 $Comp
-L Device:R_Small R?
+L fonte_18V-rescue:R_Small-Device Rfbt1
 U 1 1 5C9D1466
 P 6150 3100
-F 0 "R?" H 6209 3146 50  0000 L CNN
-F 1 "R_Small" H 6209 3055 50  0000 L CNN
-F 2 "" H 6150 3100 50  0001 C CNN
+F 0 "Rfbt1" H 6209 3146 50  0000 L CNN
+F 1 "5k6" H 6209 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 3100 50  0001 C CNN
 F 3 "~" H 6150 3100 50  0001 C CNN
 	1    6150 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L fonte_18V-rescue:R_Small-Device Rfbb1
 U 1 1 5C9D14A6
 P 6150 3750
-F 0 "R?" H 6209 3796 50  0000 L CNN
-F 1 "R_Small" H 6209 3705 50  0000 L CNN
-F 2 "" H 6150 3750 50  0001 C CNN
+F 0 "Rfbb1" H 6209 3796 50  0000 L CNN
+F 1 "2k2" H 6209 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 3750 50  0001 C CNN
 F 3 "~" H 6150 3750 50  0001 C CNN
 	1    6150 3750
 	1    0    0    -1  
@@ -139,34 +84,13 @@ Wire Wire Line
 	5650 3400 5650 3500
 Wire Wire Line
 	5650 3500 6150 3500
-Wire Wire Line
-	6150 3500 6150 3200
-Wire Wire Line
-	6150 3500 6150 3650
-Connection ~ 6150 3500
-Wire Wire Line
-	6150 3000 6150 2900
-Wire Wire Line
-	6150 2900 5650 2900
-Connection ~ 5650 2900
 $Comp
-L pspice:DIODE D?
-U 1 1 5C9D1B6C
-P 7350 3350
-F 0 "D?" V 7304 3478 50  0000 L CNN
-F 1 "DIODE" V 7395 3478 50  0000 L CNN
-F 2 "" H 7350 3350 50  0001 C CNN
-F 3 "~" H 7350 3350 50  0001 C CNN
-	1    7350 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C?
+L fonte_18V-rescue:C_Small-Device Cout1
 U 1 1 5C9D1E15
 P 6650 3350
-F 0 "C?" H 6742 3396 50  0000 L CNN
-F 1 "C_Small" H 6742 3305 50  0000 L CNN
-F 2 "" H 6650 3350 50  0001 C CNN
+F 0 "Cout1" H 6742 3396 50  0000 L CNN
+F 1 "100uF" H 6742 3305 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 6650 3350 50  0001 C CNN
 F 3 "~" H 6650 3350 50  0001 C CNN
 	1    6650 3350
 	1    0    0    -1  
@@ -175,50 +99,22 @@ Wire Wire Line
 	6150 2900 6650 2900
 Wire Wire Line
 	6650 2900 6650 3250
-Connection ~ 6150 2900
-Wire Wire Line
-	6650 2900 7350 2900
-Wire Wire Line
-	7350 2900 7350 3150
-Connection ~ 6650 2900
 $Comp
-L power:GND #PWR?
+L fonte_18V-rescue:GND-power #PWR0101
 U 1 1 5C9D2312
 P 4900 4350
-F 0 "#PWR?" H 4900 4100 50  0001 C CNN
+F 0 "#PWR0101" H 4900 4100 50  0001 C CNN
 F 1 "GND" H 4905 4177 50  0000 C CNN
 F 2 "" H 4900 4350 50  0001 C CNN
 F 3 "" H 4900 4350 50  0001 C CNN
 	1    4900 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C9D2373
-P 4650 3600
-F 0 "#PWR?" H 4650 3350 50  0001 C CNN
-F 1 "GND" H 4655 3427 50  0000 C CNN
-F 2 "" H 4650 3600 50  0001 C CNN
-F 3 "" H 4650 3600 50  0001 C CNN
-	1    4650 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	4650 3450 4650 3600
-Wire Wire Line
-	2150 3750 2150 4350
-Wire Wire Line
-	2150 4350 2850 4350
-Wire Wire Line
-	2850 3700 2850 4350
-Connection ~ 2850 4350
+	1550 4350 2250 4350
 Wire Wire Line
 	3400 3700 3400 4350
-Wire Wire Line
-	2850 4350 3400 4350
 Connection ~ 3400 4350
-Wire Wire Line
-	3400 4350 4900 4350
 Wire Wire Line
 	6150 4350 6150 3850
 Connection ~ 4900 4350
@@ -228,10 +124,361 @@ Wire Wire Line
 	6650 4350 6150 4350
 Connection ~ 6150 4350
 Wire Wire Line
-	7350 3550 7350 4350
-Wire Wire Line
-	7350 4350 6650 4350
-Connection ~ 6650 4350
-Wire Wire Line
 	4900 4350 6150 4350
+Wire Wire Line
+	4650 2900 4650 3250
+$Comp
+L fonte_18V-rescue:D-Device D2
+U 1 1 5C9D48C0
+P 7350 2900
+F 0 "D2" H 7350 2684 50  0000 C CNN
+F 1 "SS35" H 7350 2775 50  0000 C CNN
+F 2 "Diode_SMD:D_SMC_Handsoldering" H 7350 2900 50  0001 C CNN
+F 3 "~" H 7350 2900 50  0001 C CNN
+	1    7350 2900
+	-1   0    0    1   
+$EndComp
+Connection ~ 6650 2900
+Text Label 5750 3600 0    50   ~ 0
+Feedback
+Wire Wire Line
+	1550 4200 1550 4350
+$Comp
+L fonte_18V-rescue:Fuse-Device F1
+U 1 1 5C9D6224
+P 1550 3600
+F 0 "F1" H 1610 3646 50  0000 L CNN
+F 1 "Fuse" H 1610 3555 50  0000 L CNN
+F 2 "KicadZeniteSolarLibrary18:Fuse_Holder_5x20" V 1480 3600 50  0001 C CNN
+F 3 "~" H 1550 3600 50  0001 C CNN
+	1    1550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3300 1550 3450
+$Comp
+L fonte_18V-rescue:Battery-Device battery1
+U 1 1 5C9D669E
+P 1550 4000
+F 0 "battery1" H 1658 4046 50  0000 L CNN
+F 1 "21.5<+VBAT<55V1" H 1658 3955 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" V 1550 4060 50  0001 C CNN
+F 3 "~" V 1550 4060 50  0001 C CNN
+	1    1550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3750 1550 3800
+Wire Wire Line
+	1550 3300 2450 3300
+$Comp
+L fonte_18V-rescue:Q_NMOS_GSD-Device Q1
+U 1 1 5C9D7B1B
+P 2450 4250
+F 0 "Q1" V 2700 4250 50  0000 C CNN
+F 1 "Q_NMOS_GSD" V 2791 4250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2650 4350 50  0001 C CNN
+F 3 "~" H 2450 4250 50  0001 C CNN
+	1    2450 4250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2450 3300 2450 4050
+Connection ~ 2450 3300
+Wire Wire Line
+	2450 3300 2850 3300
+Wire Wire Line
+	4650 2900 4800 2900
+Wire Wire Line
+	4300 3100 5050 3100
+Wire Wire Line
+	5050 3100 5050 3500
+Wire Wire Line
+	5050 3500 5650 3500
+Wire Wire Line
+	4300 2900 4650 2900
+Connection ~ 4650 2900
+Wire Wire Line
+	3550 3000 2450 3000
+Wire Wire Line
+	2450 3000 2450 3300
+Wire Wire Line
+	3900 2750 2450 2750
+Wire Wire Line
+	2450 2750 2450 3000
+Connection ~ 2450 3000
+Wire Wire Line
+	4250 2450 3550 2450
+Wire Wire Line
+	3550 2450 3550 2900
+Wire Wire Line
+	4450 2450 4800 2450
+Wire Wire Line
+	4800 2450 4800 2900
+Wire Wire Line
+	3550 3100 3400 3100
+Wire Wire Line
+	3400 3100 3400 3500
+$Comp
+L fonte_18V-rescue:GND-power #PWR0102
+U 1 1 5C9E3088
+P 7900 3250
+F 0 "#PWR0102" H 7900 3000 50  0001 C CNN
+F 1 "GND" H 7905 3077 50  0000 C CNN
+F 2 "" H 7900 3250 50  0001 C CNN
+F 3 "" H 7900 3250 50  0001 C CNN
+	1    7900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L fonte_18V-rescue:R_Small-Device Rfbt2
+U 1 1 5CB633FE
+P 6150 3300
+F 0 "Rfbt2" H 6209 3346 50  0000 L CNN
+F 1 "47k" H 6209 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 3300 50  0001 C CNN
+F 3 "~" H 6150 3300 50  0001 C CNN
+	1    6150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2900 6150 3000
+Connection ~ 5650 3500
+Wire Wire Line
+	6150 3400 6150 3500
+Connection ~ 6150 3500
+Wire Wire Line
+	6150 3500 6150 3650
+$Comp
+L fonte_18V-rescue:C_Small-Device Cin2
+U 1 1 5CB85C8B
+P 3050 3600
+F 0 "Cin2" H 3142 3646 50  0000 L CNN
+F 1 "100nF" H 3142 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 3600 50  0001 C CNN
+F 3 "~" H 3050 3600 50  0001 C CNN
+	1    3050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3300 3050 3300
+Wire Wire Line
+	3050 3300 3050 3500
+Connection ~ 2850 3300
+Wire Wire Line
+	3050 3700 3050 4350
+Connection ~ 3050 4350
+Wire Wire Line
+	3050 4350 3400 4350
+$Comp
+L fonte_18V-rescue:D_Schottky_AKA-Device D1
+U 1 1 5CB8A5F1
+P 4650 3400
+F 0 "D1" V 4629 3544 50  0000 L CNN
+F 1 "MBR20200CTG" V 4720 3544 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown_SMD" H 4650 3400 50  0001 C CNN
+F 3 "~" H 4650 3400 50  0001 C CNN
+	1    4650 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 3600 4650 3750
+Connection ~ 4650 4350
+Wire Wire Line
+	4650 4350 4900 4350
+Wire Wire Line
+	4750 3600 4750 3750
+Wire Wire Line
+	4750 3750 4650 3750
+Connection ~ 4650 3750
+Wire Wire Line
+	4650 3750 4650 4350
+$Comp
+L fonte_18V-rescue:C_Small-Device Cout2
+U 1 1 5CB9F5CD
+P 6900 3650
+F 0 "Cout2" H 6992 3696 50  0000 L CNN
+F 1 "100nF" H 6992 3605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 3650 50  0001 C CNN
+F 3 "~" H 6900 3650 50  0001 C CNN
+	1    6900 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 4350
+$Comp
+L fonte_18V-rescue:R_Small-Device RLed1
+U 1 1 5CBA4F86
+P 7100 3900
+F 0 "RLed1" H 7159 3946 50  0000 L CNN
+F 1 "750R" H 7159 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7100 3900 50  0001 C CNN
+F 3 "~" H 7100 3900 50  0001 C CNN
+	1    7100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L fonte_18V-rescue:LED-Device Led1
+U 1 1 5CBAD6E9
+P 7100 3400
+F 0 "Led1" V 7139 3283 50  0000 R CNN
+F 1 "LED" V 7048 3283 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7100 3400 50  0001 C CNN
+F 3 "~" H 7100 3400 50  0001 C CNN
+	1    7100 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3550 7100 3800
+Wire Wire Line
+	7100 4000 7100 4350
+Wire Wire Line
+	6650 2900 6900 2900
+Wire Wire Line
+	6650 4350 6900 4350
+Wire Wire Line
+	6900 3750 6900 4350
+Connection ~ 6900 4350
+Wire Wire Line
+	6900 4350 7100 4350
+Wire Wire Line
+	6900 2900 6900 3550
+Connection ~ 6900 2900
+Wire Wire Line
+	2650 4350 2850 4350
+Wire Wire Line
+	2850 3300 2850 3850
+Wire Wire Line
+	2850 4050 2850 4350
+Connection ~ 2850 4350
+Wire Wire Line
+	2850 4350 3050 4350
+Connection ~ 4800 2900
+Connection ~ 6150 2900
+Wire Wire Line
+	4800 2900 5000 2900
+Connection ~ 5650 2900
+Wire Wire Line
+	6150 2900 5650 2900
+Wire Wire Line
+	5650 2900 5650 3200
+Wire Wire Line
+	5500 2900 5650 2900
+$Comp
+L fonte_18V-rescue:INDUCTOR-pspice L1
+U 1 1 5C9D11E1
+P 5250 2900
+F 0 "L1" H 5250 3115 50  0000 C CNN
+F 1 "100uH" H 5250 3024 50  0000 C CNN
+F 2 "Inductor_THT:L_Radial_D21.0mm_P19.00mm" H 5250 2900 50  0001 C CNN
+F 3 "~" H 5250 2900 50  0001 C CNN
+	1    5250 2900
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8050 2800 550  500 
+U 5CBB72A0
+F0 "canbus_connector" 50
+F1 "canbus_connector.sch" 50
+F2 "CAN_18V" O L 8050 2900 50 
+F3 "CAN_GND" B L 8050 3200 50 
+$EndSheet
+Wire Wire Line
+	7500 2900 7550 2900
+Wire Wire Line
+	8050 3200 7900 3200
+Wire Wire Line
+	7900 3200 7900 3250
+NoConn ~ 4300 3000
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CBCA01C
+P 1550 3300
+F 0 "#FLG0101" H 1550 3375 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 3473 50  0000 C CNN
+F 2 "" H 1550 3300 50  0001 C CNN
+F 3 "~" H 1550 3300 50  0001 C CNN
+	1    1550 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1550 3300
+Wire Wire Line
+	4050 3350 4050 3500
+Wire Wire Line
+	4050 3500 3900 3500
+Wire Wire Line
+	3900 3350 3900 3500
+Wire Wire Line
+	6900 2900 7200 2900
+Wire Wire Line
+	7100 3250 7100 3100
+Wire Wire Line
+	7100 3100 7550 3100
+Wire Wire Line
+	7550 3100 7550 2900
+Connection ~ 7550 2900
+Wire Wire Line
+	7550 2900 8050 2900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CC420D3
+P 7950 4250
+F 0 "H1" H 8050 4296 50  0000 L CNN
+F 1 "MountingHole" H 8050 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7950 4250 50  0001 C CNN
+F 3 "~" H 7950 4250 50  0001 C CNN
+	1    7950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5CC42853
+P 8650 4250
+F 0 "H3" H 8750 4296 50  0000 L CNN
+F 1 "MountingHole" H 8750 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8650 4250 50  0001 C CNN
+F 3 "~" H 8650 4250 50  0001 C CNN
+	1    8650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CC42D81
+P 7950 4500
+F 0 "H2" H 8050 4546 50  0000 L CNN
+F 1 "MountingHole" H 8050 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7950 4500 50  0001 C CNN
+F 3 "~" H 7950 4500 50  0001 C CNN
+	1    7950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5CC4305B
+P 8650 4500
+F 0 "H4" H 8750 4546 50  0000 L CNN
+F 1 "MountingHole" H 8750 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 8650 4500 50  0001 C CNN
+F 3 "~" H 8650 4500 50  0001 C CNN
+	1    8650 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3900 3500
+Connection ~ 3900 4350
+Wire Wire Line
+	3900 4350 4650 4350
+Wire Wire Line
+	3400 4350 3900 4350
+Wire Wire Line
+	3900 3500 3900 4350
+$Comp
+L zenite_fonte:LMR16030 U?
+U 1 1 5CC52C8D
+P 3900 3450
+F 0 "U?" H 3925 4331 50  0000 C CNN
+F 1 "LMR16030" H 3925 4240 50  0000 C CNN
+F 2 "" H 3900 3450 50  0001 C CNN
+F 3 "" H 3900 3450 50  0001 C CNN
+	1    3900 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
