@@ -1,4 +1,4 @@
-16314603248044141
+16333471788443735
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49643,6 +49643,90 @@ Yellow 5381 Series LED
 0
 2
 2
+MFP19RJ45
+CP_Radial_D5.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+MFP19RJ45
+C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+MFP19RJ45
+Fuse_Holder_5x20
+
+Zenite Solar Library 2018
+0
+2
+2
+MFP19RJ45
+LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+MFP19RJ45
+L_Radial_D21.0mm_P19.00mm
+Inductor, Radial series, Radial, pin pitch=19.00mm, , diameter=21mm, http://www.abracon.com/Magnetics/radial/AIRD02.pdf
+Inductor Radial series Radial pin pitch 19.00mm  diameter 21mm
+0
+2
+2
+MFP19RJ45
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+MFP19RJ45
+PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal
+Generic Phoenix Contact connector footprint for: MSTBA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Angled || order number: 1757242 12A || order number: 1923869 16A (HC)
+phoenix_contact connector MSTBA_01x02_G_5.08mm
+0
+2
+2
+MFP19RJ45
+RJ45_YH59_01
+
+RJ45
+0
+10
+9
+MFP19RJ45
+R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+MFP19RJ45
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+MFP19RJ45
+TO-220-3_Horizontal_TabDown_SMD
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+4
+3
+MFP19RJ45
+Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias
+HSOIC, 8 Pin (http://www.ti.com/lit/ds/symlink/lmr14030.pdf#page=28, http://www.ti.com/lit/ml/msoi002j/msoi002j.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HSOIC SO
+0
+23
+9
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
