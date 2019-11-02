@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew   date = ter 29 out 2019 18:18:59 -03
+Cmp-Mod V01 Created by PcbNew   date = Fri 01 Nov 2019 11:13:34 PM -03
 
 BeginCmp
 TimeStamp = 5DB90877
@@ -169,7 +169,7 @@ IdModule  = Inductor_THT:L_Radial_D21.0mm_P19.00mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 5D94130D
+TimeStamp = 5DBCE9E4
 Path = /5D75D43B
 Reference = J2;
 ValeurCmp = MSTBA;
@@ -177,7 +177,7 @@ IdModule  = Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08m
 EndCmp
 
 BeginCmp
-TimeStamp = 5D9412E9
+TimeStamp = 5DBCE8A6
 Path = /5D745A87
 Reference = J1;
 ValeurCmp = MSTBA;
