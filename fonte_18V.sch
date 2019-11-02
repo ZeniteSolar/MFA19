@@ -617,45 +617,45 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5DB5A7FD
-P 11550 200
-F 0 "H4" H 11650 246 50  0000 L CNN
-F 1 "MountingHole" H 11650 155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 11550 200 50  0001 C CNN
-F 3 "~" H 11550 200 50  0001 C CNN
-	1    11550 200 
+P 3250 2200
+F 0 "H4" H 3350 2246 50  0000 L CNN
+F 1 "MountingHole" H 3350 2155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3250 2200 50  0001 C CNN
+F 3 "~" H 3250 2200 50  0001 C CNN
+	1    3250 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5DB774A1
-P 11500 8100
-F 0 "H3" H 11600 8146 50  0000 L CNN
-F 1 "MountingHole" H 11600 8055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 11500 8100 50  0001 C CNN
-F 3 "~" H 11500 8100 50  0001 C CNN
-	1    11500 8100
+P 3250 2550
+F 0 "H3" H 3350 2596 50  0000 L CNN
+F 1 "MountingHole" H 3350 2505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3250 2550 50  0001 C CNN
+F 3 "~" H 3250 2550 50  0001 C CNN
+	1    3250 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5DB7A851
-P 200 8100
-F 0 "H2" H 300 8146 50  0000 L CNN
-F 1 "MountingHole" H 300 8055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 200 8100 50  0001 C CNN
-F 3 "~" H 200 8100 50  0001 C CNN
-	1    200  8100
+P 2350 2550
+F 0 "H2" H 2450 2596 50  0000 L CNN
+F 1 "MountingHole" H 2450 2505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2350 2550 50  0001 C CNN
+F 3 "~" H 2350 2550 50  0001 C CNN
+	1    2350 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5DB7DBB6
-P 200 150
-F 0 "H1" H 300 196 50  0000 L CNN
-F 1 "MountingHole" H 300 105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 200 150 50  0001 C CNN
-F 3 "~" H 200 150 50  0001 C CNN
-	1    200  150 
+P 2350 2200
+F 0 "H1" H 2450 2246 50  0000 L CNN
+F 1 "MountingHole" H 2450 2155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2350 2200 50  0001 C CNN
+F 3 "~" H 2350 2200 50  0001 C CNN
+	1    2350 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
