@@ -16,7 +16,7 @@ Este módulo é responsável por fornecer uma tensao fixa e estavel de 18V para 
     - Nao queimar por sobre temperatura
     - Nao queimar por sobre-carga
     - Resistencia por ruido eletromagnetico e eletrico causados pelos componentes do sistema (motor,MCC...)
-3. Eficiencia energetica
+3. Eficiencia energetica.
     -Conversor estatico DC/DC chaveado
 4. Facilitar o diagnóstico
     - Utilizar LEDs
