@@ -24,3 +24,7 @@ Este módulo é responsável por fornecer uma tensao fixa e estavel de 18V para 
     -Conversor estatico DC/DC chaveado
 4. Facilitar o diagnóstico
     - Utilizar LEDs
+    
+**CI ultilizado**
+![](https://github.com/ZeniteSolar/MFP19/blob/master/%20datasheet%20(Rev%20A)%20-%20lmr16030%20pdf(1).png?raw=true)
+![](https://github.com/ZeniteSolar/MFP19/blob/master/%20datasheet%20(Rev%20A)%20-%20lmr16030%20pdf.png?raw=true)
