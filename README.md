@@ -26,8 +26,7 @@ Este módulo é responsável por fornecer uma tensao fixa e estavel de 18V para 
     - Utilizar LEDs
     
 **CI Ultilizado: Conversor LMR16030**
-
-[Datasheet]https://www.ti.com/lit/ds/symlink/lmr16030.pdf?ts=1596324314390&ref_url=https%253A%252F%252Fwww.google.com%252F
+[Datasheet](https://www.ti.com/lit/ds/symlink/lmr16030.pdf?ts=1596324314390&ref_url=https%253A%252F%252Fwww.google.com%252F)
 
 ![](https://github.com/ZeniteSolar/MFP19/blob/master/%20datasheet%20(Rev%20A)%20-%20lmr16030%20pdf.png?raw=true)
 
