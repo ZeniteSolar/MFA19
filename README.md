@@ -31,9 +31,9 @@ Este módulo é responsável por fornecer uma tensao fixa e estavel de 18V para 
 
 ![](https://github.com/ZeniteSolar/MFP19/blob/master/%20datasheet%20(Rev%20A)%20-%20lmr16030%20pdf.png?raw=true)
 
-**Projeto do Indutor**
+#### Projeto do Indutor
 
-seleção do indutor de saida:
+   -seleção do indutor de saida:
 
 ![](https://github.com/ZeniteSolar/MFP19/blob/master/equa%C3%A7%C3%A3o%20sele%C3%A7ao%20de%20indutor?raw=true)
 
